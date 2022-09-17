@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/*
+ * coment
+ *
+ */
 int main(void)
 {
 	int n;
