@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main
+ * main - Entry point
  *
- * Return;
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int ch;
-	
-	for(ch = 'a'; ch <= 'z'; ch++)
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
