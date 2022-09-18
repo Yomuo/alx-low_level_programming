@@ -1,20 +1,20 @@
 #include <stdio.h>
-/*
- * main - program that prints all possible
+/**
+ * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
 
-	for (n = '0'; n <= '9'; n++)
+	for (n = '0' ; n <= '9' ; n++)
 	{
 		putchar(n);
 		if (n != '9')
 		{
-			putchar(',');
-			putchar(' ');
+		putchar(',');
+		putchar(' ');
 		}
 	}
 	putchar('\n');
