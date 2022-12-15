@@ -3,17 +3,17 @@
 /**
 *main - function prints text as output
 *
-* Return:return 0
+*Return:return 0
 */
 int main(void)
 {
-	char word[10] = "_putchar";
+	char school[10] = "_putchar";
 
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(word[i]);
+		_putchar(school[i]);
 	}
 	_putchar(10);
 	return (0);
