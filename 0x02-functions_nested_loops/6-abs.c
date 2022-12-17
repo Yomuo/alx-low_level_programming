@@ -5,7 +5,7 @@
  * @i : charecter as a input
  *Return : Always return 0
  */
-_abs(int i)
+int _abs(int i)
 {
 	if (i > 0)
 		return (i);
