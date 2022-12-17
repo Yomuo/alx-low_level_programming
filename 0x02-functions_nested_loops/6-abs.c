@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _abs : function that computes the absolute value of an integer
+ *_abs - function that computes the absolute value of an integer
  * @i : charecter as a input
- *Return : Always return 0
+ *Return: return 0
  */
 int _abs(int i)
 {
