@@ -5,11 +5,10 @@
  */
 int main(void)
 {
-	int n = 98;
+int n;
 
-	positive_or_negative(n);
-	if (postitive_or_negative(n) == 0)
-	{
-	return (0);
-	}
+n = 0;
+positive_or_negative(n);
+
+return (0);
 }
