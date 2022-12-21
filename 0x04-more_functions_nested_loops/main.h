@@ -1,4 +1,4 @@
-#ifdef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 /**
  * main - header file for prototypes
@@ -15,4 +15,4 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
-#endif /* MAIN_H */
+#endif
